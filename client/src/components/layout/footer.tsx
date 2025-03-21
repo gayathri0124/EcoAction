@@ -99,7 +99,8 @@ export default function Footer() {
                       onClick={(e) => {
                         if (link.href.startsWith('#')) {
                           e.preventDefault();
-                          const target = document.querySelector(link.href);
+                          const elementId = link.href.substring(1); // Remove the # character
+                          const target = document.getElementById(elementId);
                           if (target) {
                             window.scrollTo({
                               top: target.getBoundingClientRect().top + window.scrollY - 80,
