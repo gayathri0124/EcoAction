@@ -45,11 +45,11 @@ export default function Footer() {
     {
       title: "Resources",
       links: [
-        { href: "#", label: "Blog" },
-        { href: "#", label: "Climate Data" },
-        { href: "#", label: "Research" },
-        { href: "#", label: "Partners" },
-        { href: "#", label: "FAQ" }
+        { href: "/blog", label: "Blog" },
+        { href: "/climate-data", label: "Climate Data" },
+        { href: "/research", label: "Research" },
+        { href: "/partners", label: "Partners" },
+        { href: "/faq", label: "FAQ" }
       ]
     }
   ];
